@@ -17,4 +17,9 @@ public class PlanetTest {
     public void hasSize(){
         assertEquals(908973, planet.getSize());
     }
+
+    @Test
+    public void explodePlanet(){
+        assertEquals("Boom! Mars has exploded.", planet.explodePlanet());
+    }
 }
